@@ -139,6 +139,14 @@ button {
     border-radius: 50px;
     height: 15%;
 }
+button:hover {
+    background-color: hsla(224, 30%, 27%,0.8);
+    cursor: pointer;
+}
+button:active {
+    background-color: hsl(224, 30%, 27%);
+    cursor: pointer;
+}
 
 @media screen and (max-width: 1400px) {
     .outer-container {
